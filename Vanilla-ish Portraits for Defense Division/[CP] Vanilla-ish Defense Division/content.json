@@ -1,0 +1,103 @@
+{
+	"Format": "2.8.0",
+	"Changes": [
+	// Isis
+		// Base Art
+		{
+		"Action": "EditImage",
+		"Target": "Portraits/Isis",
+		"FromFile": "Ativos/Personagens/Artes/Isis/Comum.V1/Is.Re_Spring_Sun.png"
+		},
+
+		// Seasonal Art
+		{
+		"Action": "EditImage",
+		"Target": "Portraits/Is.Re_Summer_Sun, Portraits/Is.Re_Fall_Sun, Portraits/Is.Re_Winter_Sun, Portraits/Is.Re_Spring_Rain, Portraits/Is.Re_Summer_Rain, Portraits/Is.Re_Fall_Rain, Portraits/Is.Re_Winter_Snow",
+		"FromFile": "Ativos/Personagens/Artes/Isis/Comum.V1/{{TargetWithoutPath}}.png"
+		},
+		{
+		"Action": "EditImage",
+		"Target": "Portraits/Is.ReV2_Spring_Sun, Portraits/Is.ReV2_Summer_Sun, Portraits/Is.ReV2_Fall_Sun, Portraits/Is.ReV2_Winter_Sun, Portraits/Is.ReV2_Spring_Rain, Portraits/Is.ReV2_Summer_Rain, Portraits/Is.ReV2_Fall_Rain, Portraits/Is.ReV2_Winter_Snow",
+		"FromFile": "Ativos/Personagens/Artes/Isis/Comum.V2/{{TargetWithoutPath}}.png"
+		},
+		{
+		"Action": "EditImage",
+		"Target": "Portraits/Is.Re",
+		"FromFile": "Ativos/Personagens/Artes/Isis/Casual.V1/{{TargetWithoutPath}}.png"
+		},
+		{
+		"Action": "EditImage",
+		"Target": "Portraits/Is.ReV2, Portraits/Is.ReV2_Job",
+		"FromFile": "Ativos/Personagens/Artes/Isis/Casual.V2/{{TargetWithoutPath}}.png"
+		},
+		
+		// Festival Art
+		{
+		"Action": "EditImage",
+		"Target": "Portraits/Is.Retrato_EggFest, Portraits/Is.Retrato_FlowerDance, Portraits/Is.Retrato_Luau, Portraits/Is.Retrato_DanceMoonlight, Portraits/Is.Retrato_Fair, Portraits/Is.Retrato_SpiritsEve, Portraits/Is.Retrato_IceFest, Portraits/Is.Retrato_WinterStart",
+		"FromFile": "Ativos/Personagens/Artes/Isis/Festival.V1/{{TargetWithoutPath}}.png"
+		},
+		{
+		"Action": "EditImage",
+		"Target": "Portraits/Is.RetratoV2_EggFest, Portraits/Is.RetratoV2_FlowerDance, Portraits/Is.RetratoV2_Luau, Portraits/Is.RetratoV2_DanceMoonlight, Portraits/Is.RetratoV2_Fair, Portraits/Is.RetratoV2_SpiritsEve, Portraits/Is.RetratoV2_IceFest, Portraits/Is.RetratoV2_WinterStart",
+		"FromFile": "Ativos/Personagens/Artes/Isis/Festival.V2/{{TargetWithoutPath}}.png"
+		},
+	
+	// Miranda
+		// Base Art
+		{
+		"Action": "EditImage",
+		"Target": "Portraits/Miranda",
+		"FromFile": "Ativos/Personagens/Artes/Miranda/Comum/Mi.Re_Spring_Sun.png"
+		},
+		// Seasonal Art
+		{
+		"Action": "EditImage",
+		"Target": "Portraits/Mi.Re_Summer_Sun, Portraits/Mi.Re_Fall_Sun, Portraits/Mi.Re_Winter_Sun, Portraits/Mi.Re_Spring_Rain, Portraits/Mi.Re_Summer_Rain, Portraits/Mi.Re_Fall_Rain, Portraits/Mi.Re_Winter_Snow",
+		"FromFile": "Ativos/Personagens/Artes/Miranda/Comum/{{TargetWithoutPath}}.png"
+		},
+		{
+		"Action": "EditImage",
+		"Target": "Portraits/Mi.Re",
+		"FromFile": "Ativos/Personagens/Artes/Miranda/Casual/{{TargetWithoutPath}}.png"
+		},
+		// Festival Art
+		{
+		"Action": "EditImage",
+		"Target": "Portraits/Mi.Retrato_FlowerDance, Portraits/Mi.Retrato_Luau, Portraits/Mi.Retrato_DanceMoonlight, Portraits/Mi.Retrato_Fair, Portraits/Mi.Retrato_SpiritsEve, Portraits/Mi.Retrato_WinterStart",
+		"FromFile": "Ativos/Personagens/Artes/Miranda/Festival/{{TargetWithoutPath}}.png"
+		},
+
+	// Edward
+		// Base Art
+		{
+		"Action": "EditImage",
+		"Target": "Portraits/Edward",
+		"FromFile": "Ativos/Personagens/Artes/Edward/Comum/Ed.Re_Spring_Sun.png"
+		},
+
+		// Seasonal Art
+		{
+		"Action": "EditImage",
+		"Target": "Portraits/Ed.Re_Summer_Sun, Portraits/Ed.Re_Fall_Sun, Portraits/Ed.Re_Winter_Sun, Portraits/Ed.Re_Spring_Rain, Portraits/Ed.Re_Summer_Rain, Portraits/Ed.Re_Fall_Rain, Portraits/Ed.Re_Winter_Snow",
+		"FromFile": "Ativos/Personagens/Artes/Edward/Comum/{{TargetWithoutPath}}.png"
+		},
+		{
+		"Action": "EditImage",
+		"Target": "Portraits/Ed.ReV2_Spring_Sun, Portraits/Ed.ReV2_Summer_Sun, Portraits/Ed.ReV2_Fall_Sun, Portraits/Ed.ReV2_Winter_Sun, Portraits/Ed.ReV2_Spring_Rain, Portraits/Ed.ReV2_Summer_Rain, Portraits/Ed.ReV2_Fall_Rain, Portraits/Ed.ReV2_Winter_Snow",
+		"FromFile": "Ativos/Personagens/Artes/Edward/Comum.V2/{{TargetWithoutPath}}.png"
+		},
+		{
+		"Action": "EditImage",
+		"Target": "Portraits/Ed.Re_Job.Spring, Portraits/Ed.Re_Job.Summer, Portraits/Ed.Re_Job.Fall, Portraits/Ed.Re_Job.Winter, Portraits/Ed.Re",
+		"FromFile": "Ativos/Personagens/Artes/Edward/Casual/{{TargetWithoutPath}}.png"
+		},
+
+		// Festival Art
+		{
+		"Action": "EditImage",
+		"Target": "Portraits/Ed.Retrato_EggFest, Portraits/Ed.Retrato_FlowerDance, Portraits/Ed.Retrato_Luau, Portraits/Ed.Retrato_DanceMoonlight, Portraits/Ed.Retrato_Fair, Portraits/Ed.Retrato_SpiritsEve, Portraits/Ed.RetratoV2_SpiritsEve, Portraits/Ed.Retrato_IceFest, Portraits/Ed.Retrato_WinterStart",
+		"FromFile": "Ativos/Personagens/Artes/Edward/Festival/{{TargetWithoutPath}}.png"
+		}
+	]
+}

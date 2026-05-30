@@ -1,0 +1,21 @@
+{
+    "Name": "Vanilla-ish Portraits for Defense Division",
+    "Author": "hennysan",
+    "Version": "1.1",
+    "Description": "Modifies the portraits from Defense Division to be more vanilla-like.",
+    "UniqueID": "Hennysan.VanillaDD",
+    "UpdateKeys": [ "Nexus:39214" ],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+	   {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		"IsRequired": true
+	   }, 
+	   {
+		"UniqueID": "DD.DefenseDivision",
+		"IsRequired": true
+	   } 
+   ]
+}
