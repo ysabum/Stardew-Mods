@@ -1,0 +1,24 @@
+{
+  "Name": "Vanilla-ish Portraits for Stardew Aquarium",
+  "Author": "hennysan",
+  "Version": "1.0",
+  "Description": "Changes the portraits from Stardew Aquarium to fit the vanilla aesthetic more.",
+  "UniqueID": "Hennysan.VanillaSA",
+  "UpdateKeys": [  ],
+  "ContentPackFor": 
+    {
+      "UniqueID": "Pathoschild.ContentPatcher"
+    },
+
+  "Dependencies": [
+    {
+      "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    {
+      "UniqueID": "Gervig91.StardewAquariumCP"
+    },
+    {
+      "UniqueID": "PeacefulEnd.CustomCompanions"
+    }
+  ]
+}

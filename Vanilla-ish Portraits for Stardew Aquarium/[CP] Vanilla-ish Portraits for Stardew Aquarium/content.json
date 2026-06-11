@@ -1,0 +1,12 @@
+{
+  "Format": "2.8.0",
+  "Changes": [
+
+    // Curator
+    {
+      "Action": "EditImage",
+      "Target": "Portraits/Curator",
+      "FromFile": "assets/{{target}}.png"
+    }
+  ]
+}
