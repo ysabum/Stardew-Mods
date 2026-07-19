@@ -1,0 +1,161 @@
+{
+	"Format": "1.24.0",
+	"Changes": [
+      {
+		"Action": "EditImage",
+		"Target": "Portraits/Lavril",
+		"FromFile": "assets/LavrilPortrait_{{season}}.png"
+       },
+       {
+		"Action": "EditImage",
+		"Target": "Portraits/Lavril",
+		"FromFile": "assets/LavrilFallPortrait_festival.png",
+		"Update": "OnLocationChange",
+     		"When": {
+       		 	"LocationName": "Temp",
+       		 	"DayEvent": "spirit's eve"
+     		 }
+       },
+       {
+		"Action": "EditImage",
+		"Target": "Portraits/Lavril",
+		"FromFile": "assets/LavrilWinterPortrait_festival.png",
+  		"Update": "OnLocationChange",
+  	   	"When": {
+  	      		"LocationName": "Temp",
+ 	       		"DayEvent": "feast of the winter star"
+	      }
+       },
+       {
+		"Action": "EditImage",
+		"Target": "Portraits/Lavril",
+		"FromFile": "assets/LavrilPJPortrait_pj.png",
+     		"Update": "OnLocationChange",
+      		"When": {
+       		 	"LocationName": "Temp",
+        		"DayEvent": "Egg Festival",
+        		"HasSeenEvent |contains=63070031": "true"
+      		}
+       },
+       {
+		"Action": "EditImage",
+		"Target": "Portraits/Lavril",
+		"FromFile": "assets/LavrilPortrait_beach.png",
+     		"Update": "OnLocationChange",
+      		"When": {
+       		 	"LocationName": "Temp",
+        		"DayEvent": "luau",
+      		}
+       },
+       {
+		"Action": "EditImage",
+		"Target": "Portraits/Lavril",
+		"FromFile": "assets/LavrilPortrait_summer.png",
+     		"Update": "OnLocationChange",
+      		"When": {
+       		 	"LocationName": "Temp",
+        		"DayEvent": "dance of the moonlight jellies",
+      		}
+       },
+       {
+		"Action": "EditImage",
+		"Target": "Portraits/Lavril",
+		"FromFile": "assets/LavrilFallPortrait_festival.png",
+     		"Update": "OnLocationChange",
+      		"When": {
+       		 	"LocationName": "Temp",
+        		"DayEvent": "stardew valley fair",
+      		}
+       },
+       {
+		"Action": "EditImage",
+		"Target": "Portraits/Lavril",
+		"FromFile": "assets/LavrilPortrait_festival.png",
+     		"Update": "OnLocationChange",
+      		"When": {
+       		 	"LocationName": "Temp",
+        		"DayEvent": "festival of ice",
+      		}
+       },
+       {
+		"Action": "EditImage",
+		"Target": "Portraits/Lavril",
+		"FromFile": "assets/LavrilPortrait_beach.png",
+		"Update": "OnLocationChange",
+     		"When": {
+			"LocationName": "IslandSouth, IslandWest, IslandEast, IslandNorth",
+			"Time": "{{Range: 1130, 1820}}",
+     		 }
+       },
+       {
+		"Action": "EditImage",
+		"Target": "Portraits/Lavril",
+		"FromFile": "assets/LavrilPortrait_festival.png",
+		"Update": "OnLocationChange",
+     		"When": {
+                	"LocationName": "Temp",
+                	"DayEvent": "flower dance"
+     		 }
+       },
+	{
+		"Action": "EditImage",
+       		"Target": "Characters/Lavril",
+		"FromFile": "assets/LavrilSprites_{{Season}}.png",   	
+	},
+	{
+		"Action": "EditImage",
+       		"Target": "Characters/Lavril",
+		"FromFile": "assets/LavrilSprites_beach.png",
+		"Update": "OnLocationChange",
+      		"When": {
+       		 	"LocationName": "Temp",
+        		"DayEvent": "luau",
+      		}
+	},
+	{
+		"Action": "EditImage",
+       		"Target": "Characters/Lavril",
+		"FromFile": "assets/LavrilSprites_summer.png",
+     		"Update": "OnLocationChange",
+      		"When": {
+       		 	"LocationName": "Temp",
+        		"DayEvent": "dance of the moonlight jellies",
+      		}   	
+	},
+	{
+		"Action": "EditImage",
+       		"Target": "Characters/Lavril",
+		"FromFile": "assets/LavrilSprites_festival.png",
+     		"Update": "OnLocationChange",
+      		"When": {
+       		 	"LocationName": "Temp",
+        		"DayEvent": "festival of ice",
+      		}   	
+	},
+	{
+		"Action": "EditImage",
+       		"Target": "Characters/Lavril",
+		"FromFile": "assets/LavrilSprites_beach.png",
+		"Update": "OnLocationChange",
+     		"When": {
+			"LocationName": "IslandSouth, IslandWest, IslandEast, IslandNorth",
+			"Time": "{{Range: 1130, 1820}}",
+     		 } 	
+	},
+	{
+		"Action": "EditImage",
+       		"Target": "Characters/Lavril",
+		"FromFile": "assets/LavrilSprites_festival.png",
+		"Update": "OnLocationChange",
+     		"When": {
+                	"LocationName": "Temp",
+                	"DayEvent": "flower dance"
+     		 }   	
+	},
+       {
+		"Action": "EditImage",
+		"Target": "Portraits/Void",
+		"FromFile": "assets/VoidPortrait_VL.png"
+       },
+    ]
+}

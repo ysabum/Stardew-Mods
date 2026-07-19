@@ -1,0 +1,21 @@
+{
+    "Name": "Vanilla-ish Portraits for Lavril",
+    "Author": "hennysan",
+    "Version": "1.0",
+    "Description": "Gives Lavril portraits that match vanilla more.",
+    "UniqueID": "Hennysan.VanillaLavril",
+    "UpdateKeys": [""],
+    "ContentPackFor": {
+        "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "Dependencies": [
+	   {
+		"UniqueID": "Pathoschild.ContentPatcher",
+		"IsRequired": true
+	   }, 
+	   {
+		"UniqueID": "Arknir27.Lavril",
+		"IsRequired": true
+	   }
+   ]
+}
