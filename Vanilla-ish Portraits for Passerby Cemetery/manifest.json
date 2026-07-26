@@ -1,0 +1,23 @@
+{
+  "Name": "Vanilla-ish Portraits for Passerby Cemetery",
+  "Author": "hennysan",
+  "Version": "1.0",
+  "Description": "Adds vanilla-ish portraits for some Passerby Cemetery characters. To be used on top of Wu's portraits.",
+  "UniqueID": "Hennysan.VanillaPC",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": [""],
+  "Dependencies": [
+    {
+      "UniqueID": "Pathoschild.ContentPatcher"     
+    },
+    {
+      "UniqueID": "Fellowclown.PC"     
+    },
+    {
+      "UniqueID": "xiaowugogo.WuPortraitOfPasserbyCemetery"
+    }
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  }
+}

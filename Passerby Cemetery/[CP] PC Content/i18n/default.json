@@ -1174,7 +1174,7 @@ COTTON DIALOGUE
 "Mon.Cotton.LowHeart.spring": "Interesting. Now leave me alone.$5#$b#Look, you don't want to buddy up with me.#$action spacechase0.SpaceCore_PlaySound grunt",
 "Mon.Cotton.LowHeart.summer": "It's a beautiful day to stay inside, isn't it?#$b#This heatwave has my whole ass sweating.#$action spacechase0.SpaceCore_PlaySound grunt",
 "Mon.Cotton.LowHeart.fall": "Do all humans see something unsettling and want to befriend it, or are you just... different?#$action spacechase0.SpaceCore_PlaySound grunt",
-"Mon.Cotton.LowHeart.winter": "Take this, scrub!%Cotton has hit you very hard with a snowball.#$action spacechase0.SpaceCore_DamageCurrentFarmer -3",
+"Mon.Cotton.LowHeart.winter": "Take this, scrub! %Cotton has hit you very hard with a snowball.#$action spacechase0.SpaceCore_DamageCurrentFarmer -3",
 "Tue.Cotton.LowHeart.spring": "You made a mistake freeing me. You humans are in for it now!$1#$b#Teach you assholes to trap people behind waterfalls.$5#$action spacechase0.SpaceCore_PlaySound grunt",
 "Tue.Cotton.LowHeart.summer": "Go mess with that stinky dude - what's his face? Shane? Yeah, Shane. Leave me alone and fuck with him instead.$1",
 "Tue.Cotton.LowHeart.fall": "Hey, don't panic, but I'm not completely human.#$b#Oh, you already know?#$b#Hm. Weird. I didn’t realize since you're always bothering me like I am.$5",
@@ -1916,7 +1916,7 @@ Eva DIALOGUE
 "AcceptBirthdayGift_Hated.Eva": "Wowie, tell me what you really think.$3#$b#What a bad birthday gift.$2",
 "AcceptBirthdayGift_Neutral.Eva": "Thanks, it's been a good birthday so far. I appreciate the gift.",
 "Eva.gift.love": "Hey wow, you really want to give it to me?$1",
-"Eva.gift.like": "Ooh, I could use this. Thanks a bunch, @!$1",
+"Eve.gift.like": "Ooh, I could use this. Thanks a bunch, @!$1",
 "Eva.gift.dislike": "Oh, that's not so great...$2",
 "Eva.gift.hate": "Ack!$6#$b#What a rude gift!$3",
 "Eva.gift.neutral": "Hm, not bad! Thanks, @.",
@@ -11012,7 +11012,7 @@ VALERIE Heart Events
 "NightMarket.06": "#Offer Valerie your jellyfish.#Don't offer Valerie your jellyfish.",
 "NightMarket.07": "Well, even though I didn't find a jellyfish, there's still the mermaid's show I can see. I used to watch the mermaid performance when I was a little girl.$1#$b#Oh! Maybe you can join me?", //Valerie
 "NightMarket.08": "#Join Valerie.#Don't join Valerie.",
-"NightMarket.09": "Oh! You really mean it? I can have this?#$b#Thank you so much, @$4#$b#I've wanted one of these for years now.$1", //Valerie
+"NightMarket.09": "Oh! You really mean it? I can have this?#$b#Thank you so much, @.$4#$b#I've wanted one of these for years now.$1", //Valerie
 "NightMarket.10": "You know, there's a mermaid performance that I was going to go see.#$b#I used to watch the performance as a little girl, but I stopped going after my father passed.$3#$b#Would you... Like to go with me?", //Valerie
 "NightMarket.11": "#Join Valerie.#Don't join Valerie.",
 "NightMarket.12": "Oh... Well that's okay, you're probably wanting to look around and shop a bit.#$b#I'll be seeing you around, @. Have a good night at the market.$1", //Valerie

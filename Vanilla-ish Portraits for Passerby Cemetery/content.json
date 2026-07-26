@@ -1,0 +1,81 @@
+{
+    "Format": "2.5",
+    "Changes": [
+
+        // Seasonal Portraits 
+
+        //Alan
+        { 
+        "Action": "EditImage", 
+        "Target": "Portraits/FC.Alan, Portraits/FC.Alan_Spring, Portraits/FC.Alan_Summer, Portraits/FC.Alan_Fall, Portraits/FC.Alan_Winter", 
+        "FromFile": "Assets/Npcs/Portraits/FC.Alan/FC.Alan_{{Season}}.png",
+          "Priority": "Late",
+          "Update": "OnTimeChange",
+          "When":{
+                "Season": "Spring, Summer, Fall, Winter"
+        }
+        },
+      
+        //Valerie
+        { 
+        "Action": "EditImage", 
+        "Target": "Portraits/FC.Valerie, Portraits/FC.Valerie_Spring, Portraits/FC.Valerie_Summer, Portraits/FC.Valerie_Fall, Portraits/FC.Valerie_Winter", 
+        "FromFile": "Assets/Npcs/Portraits/FC.Valerie/FC.Valerie_{{Season}}.png" ,
+        "Priority": "Late",
+        "Update": "OnTimeChange",
+        "When":{
+                "Season": "Spring, Summer, Fall, Winter"
+        }
+        },      
+
+
+
+       // Swim Portraits
+       
+        //Alan
+        {
+        "Action": "EditImage", 
+        "Target": "Portraits/FC.Alan_SwimWear", 
+        "Priority": "Late",
+        "FromFile": "Assets/Npcs/Portraits/FC.Alan/{{TargetWithoutPath}}.png"
+        },
+
+        //Valerie
+        {
+        "Action": "EditImage", 
+        "Target": "Portraits/FC.Valerie_SwimWear", 
+        "Priority": "Late",
+        "FromFile": "Assets/Npcs/Portraits/FC.Valerie/{{TargetWithoutPath}}.png"
+        },
+        
+
+        
+        // Festival Portraits
+
+        //Alan
+        {
+        "Action": "EditImage",
+        "Target": "Portraits/FC.Alan_dance of the moonlight jellies, Portraits/FC.Alan_egg festival, Portraits/FC.Alan_feast of the winter star, Portraits/FC.Alan_festival of ice, Portraits/FC.Alan_flower dance, Portraits/FC.Alan_luau, Portraits/FC.Alan_spirit's eve, Portraits/FC.Alan_stardew valley fair, ",
+        "Priority": "Late",
+        "FromFile": "Assets/Npcs/Portraits/FC.Alan/Festivals/{{TargetWithoutPath}}.png"
+        }, 
+    
+       //Valerie
+        {
+        "Action": "EditImage",
+        "Target": "Portraits/FC.Valerie_dance of the moonlight jellies, Portraits/FC.Valerie_egg festival, Portraits/FC.Valerie_feast of the winter star, Portraits/FC.Valerie_festival of ice, Portraits/FC.Valerie_flower dance, Portraits/FC.Valerie_luau, Portraits/FC.Valerie_spirit's eve, Portraits/FC.Valerie_stardew valley fair, ",
+        "Priority": "Late",
+        "FromFile": "Assets/Npcs/Portraits/FC.Valerie/Festivals/{{TargetWithoutPath}}.png"
+        }, 
+   
+
+        
+        //Meep
+        {
+        "Action": "EditImage",
+        "Priority": "Late",
+        "Target": "Fellowclown.PC/LoveJoyPage01, Fellowclown.PC/StonePage01, Fellowclown.PC/StonePage02",
+        "FromFile": "Assets/Meep/{{TargetWithoutPath}}.png"
+        }
+]
+}
